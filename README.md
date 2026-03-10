@@ -3,7 +3,7 @@
 **Multinational External Validation of the Intensive Documentation Index for ICU Mortality Prediction**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/1177382919.svg)](https://doi.org/10.5281/zenodo.18943883)
 [![PhysioNet MIMIC-IV](https://img.shields.io/badge/Data-PhysioNet-green)](https://physionet.org/content/mimiciv/2.2/)
 [![PhysioNet HiRID](https://img.shields.io/badge/Data-HiRID-green)](https://physionet.org/content/hirid/1.1.1/)
 
