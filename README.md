@@ -81,7 +81,7 @@ IDI-Multinational-Validation/
 ## Installation
 
 ```bash
-git clone https://github.com/alexiscollier/IDI-Multinational-Validation.git
+git clone https://github.com/colla00/IDI-Multinational-Validation.git
 cd IDI-Multinational-Validation
 pip install -r requirements.txt
 ```
