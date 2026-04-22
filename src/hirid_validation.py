@@ -18,7 +18,7 @@ at the bedside) are used to match MIMIC-IV chartevents semantics.
 Reference:
   Collier AM, Shalhout SZ. Intensive Documentation Index as an All-Cause
   Mortality Predictor in Critically Ill Patients: A Multi-Center External
-  Validation Study. npj Digital Medicine, 2026.
+  Validation Study. Journal of Biomedical Informatics (under review, 2026).
   HiRID dataset: https://physionet.org/content/hirid/1.1.1/
 """
 
