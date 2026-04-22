@@ -20,7 +20,7 @@ safer direction for reported p-values.
 Reference:
   Collier AM, Shalhout SZ. Intensive Documentation Index as an All-Cause
   Mortality Predictor in Critically Ill Patients: A Multi-Center External
-  Validation Study. npj Digital Medicine, 2026.
+  Validation Study. Journal of Biomedical Informatics (under review, 2026).
 """
 
 import numpy as np
