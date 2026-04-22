@@ -8,7 +8,7 @@
 
 This repository contains all analysis code for:
 
-> **Collier AM, Shalhout SZ.** Intensive Documentation Index as an All-Cause Mortality Predictor in Critically Ill Patients: A Multi-Center External Validation Study. *npj Digital Medicine* (under review, 2026).
+> **Collier AM, Shalhout SZ.** Intensive Documentation Index as an All-Cause Mortality Predictor in Critically Ill Patients: A Multi-Center External Validation Study. *Journal of Biomedical Informatics* (under review, 2026).
 
 The Intensive Documentation Index (IDI) is a zero-burden mortality prediction framework derived exclusively from **nursing documentation timestamps** — no laboratory values, no imaging, no manual scoring required.
 
@@ -18,7 +18,7 @@ The Intensive Documentation Index (IDI) is a zero-burden mortality prediction fr
 
 | Cohort | Dataset | N (model) | Mortality | AUROC | AUPRC | Brier |
 |--------|---------|-----------|-----------|-------|-------|-------|
-| MIMIC-IV (HF, USA) | Derivation | 26,133 | 15.99% | 0.6491 | 0.2530 | 0.1299 |
+| MIMIC-IV (HF, USA) | Derivation | 26,133 complete-case (26,153 eligible) | 15.99% | 0.6491 | 0.2530 | 0.1299 |
 | HiRID (All-ICU, Switzerland) | External Validation | 33,897 | 6.08% | 0.9063 | 0.4546 | 0.1168 |
 
 - **Calibration slope (MIMIC-IV):** Baseline 1.07, IDI-Enhanced 1.05
@@ -111,14 +111,13 @@ python src/metrics.py
 ## Citation
 
 ```bibtex
-@article{collier2026npj,
+@article{collier2026jbi,
   title   = {Intensive Documentation Index as an All-Cause Mortality Predictor
              in Critically Ill Patients: A Multi-Center External Validation Study},
   author  = {Collier, Alexis M. and Shalhout, Sophia Z.},
-  journal = {npj Digital Medicine},
+  journal = {Journal of Biomedical Informatics},
   year    = {2026},
-  note    = {Under review},
-  doi     = {10.5281/zenodo.18943883}
+  note    = {Under review}
 }
 ```
 
@@ -126,13 +125,13 @@ python src/metrics.py
 
 ## Competing Interests & Patents
 
-Dr. Collier is Founder and CEO of VitaSignal LLC. This work relates to:
+Dr. Collier is Founder and CEO of VitaSignal LLC. Multiple U.S. provisional patent applications related to this work are pending. Licensing inquiries: info@vitasignal.ai
 
-- USPTO Provisional App. No. **63/976,293** — NurseRhythm IDI Engine (filed Feb 2026)
-- USPTO Provisional App. No. **63/946,187** — CDS-EQUITY (filed Dec 2025)
-- USPTO Provisional App. No. **63/932,953** — CRIS-E (filed Dec 2025)
+---
 
-Licensing: info@vitasignal.ai | NIH Award No. 1OT2OD032581 (Bayh-Dole applies)
+## Funding
+
+This research was, in part, funded by the National Institutes of Health through the NIH AIM-AHEAD program.
 
 ---
 
